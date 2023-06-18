@@ -1,0 +1,49 @@
+
+.wrapper-carousel{
+    width: 92vw;
+    margin: 0 auto;
+}
+
+
+.carousel-team .team-item{
+margin: .7em;
+width: 8em;
+overflow: hidden;
+}
+
+.carousel-team .team-item:focus{
+    top: 0;
+    left: 0;
+}
+
+
+.name{
+    font-family: "code";
+    font-weight: bold;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.rounded-circle{
+    width: 8em;
+    height:8em;
+    margin:0 auto;
+}
+
+
+
+.rounded-circle:hover{
+    transform: scale(1.03);
+    transition: transform .2s ease;
+    cursor: pointer;
+}
+
+.label-barber{
+    font-family: "code";
+    font-weight:bolder;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #000; 
+}
+

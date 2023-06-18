@@ -1,0 +1,391 @@
+
+
+/* desktop */
+@media only screen  and (min-width: 62em) and (max-width: 75em) {
+    body {
+      background-color: darkred;
+    overflow-x: hidden;
+}
+    .wrapper-carousel{
+        width: 90vw;
+    }
+  }
+
+
+/* tablets */
+@media only screen  and (min-width: 48em) and (max-width: 62em) {
+    body {
+      background-color: yellowgreen;
+    overflow-x: hidden;
+
+    }
+
+    .navbar{
+        position: fixed;
+        width: 100vw;
+    }
+    .home{
+        display: none;
+    }
+    
+    .navbar-toggler-icon{
+        /* visibility: visible; */
+        display: block !important;
+    }
+    .info-hour-mini{
+        display: inline-block;
+    }
+    .status-res{
+        visibility: visible;
+    }
+
+    .search-bar{
+        width: 60%;
+        padding: 0;
+        margin-left: -.1em !important;
+    }
+    #artwork
+    .txt ,#see-more .txt{
+        letter-spacing: .1em;
+        font-size: .8em;
+        line-height: .2em;
+    }
+    
+
+.men-group{
+    height: 140vh;
+    padding-top: 5.5em;
+}
+    
+.men {
+    height:140vh;
+    grid-gap: .5em;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "pic1 pic1 pic1 pic1 pic3 pic3 pic3 pic3"
+     "pic1 pic1 pic1 pic1 pic3 pic3 pic3 pic3"
+    " pic1 pic1 pic1 pic1 pic5 pic5 pic5 pic5"
+     "pic4 pic4 pic4 pic4 pic5 pic5 pic5 pic5"
+    ;
+}
+
+
+
+/* /////////////////carousel////////////////// */
+
+.wrapper-carousel{
+    width: 55vw;
+}
+.carousel-team .team-item{
+    border:4px solid #E97332;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.our-team-brand{
+text-align: center;
+}
+
+.label-barber{
+    font-size: 1.3em;
+    word-wrap: wrap;
+    padding: -2em;
+    display: none;
+}
+
+
+.banner-polygon {
+    height: 50em;
+    background-size: 80%;
+}
+.our-team {
+    height: 80vh;
+}
+
+/* //////////////////book now/////////////////////// */
+
+.formulaire {
+    display: grid;
+    width: 94%;
+    margin: 0em 9%;
+    grid-area: second;
+    width: 80%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:2fr;
+    grid-template-areas:
+        "g1"
+        "g2" 
+        "g3"
+        "g4" 
+       ;
+}
+
+
+.wrapper-title{
+    margin-left: 7em;
+    padding: 0;
+    margin-top: 1.7em;
+    box-sizing: border-box;
+}
+
+
+
+.form-group *{
+    margin-top: 1em;
+}
+
+.first-group{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.second-group{
+    margin:0 !important;
+    margin-top: -1em !important;
+}
+
+.box-links{
+  grid-area: g4;
+}
+
+.submit{
+    grid-area: g3;
+    margin:-2em 20% .8em;
+    background: linear-gradient(#E97332,#D6415F);
+    
+}
+
+
+.minititle a{
+    color: #000 !important;
+}
+
+.minititle a:hover{
+    color: #D6415F !important;
+}
+
+
+.carousel-team .team-item{
+    height:22em !important;
+    }
+    
+.team-item .about-worker{
+    display: block !important;
+}
+
+
+    /* /////////////////carousel////////////////// */
+
+.wrapper-carousel{
+    width: 80vw;
+}
+  }
+
+
+
+
+
+
+/* phones */
+@media only screen  and (min-width: 20em) and (max-width: 48em) {
+    body {
+        /* background-color: purple; */
+    overflow-x: hidden;
+
+    }   
+
+    .loader {
+        z-index: 10000;
+    }
+
+    .navbar{
+        position: fixed;
+        width: 100vw;
+    }
+    .home{
+        display: none;
+    }
+    .info-hour-mini{
+        display: inline-block;
+    }
+    .status-res{
+        visibility: visible;
+    }
+
+    .search-bar{
+        width: 60%;
+        padding: 0;
+        margin-left: -.1em !important;
+    }
+    #artwork
+    .txt ,#see-more .txt{
+        letter-spacing: .1em;
+        font-size: .8em;
+        line-height: .2em;
+    }
+    
+
+.men-group{
+    height: 140vh;
+    padding-top: 5.5em;
+}
+    
+.men {
+    height:140vh;
+    grid-gap: .5em;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "pic1 pic1 pic1 pic1  pic3 pic3 pic3 pic3"
+    " pic2 pic2 pic2 pic2 pic2 pic2 pic2 pic2"
+     "pic4 pic4 pic4 pic4 pic5 pic5 pic5 pic5"
+    ;
+}
+
+
+
+/* /////////////////carousel////////////////// */
+
+.wrapper-carousel{
+    width: 70vw;
+margin-top: 1% !important;
+}
+.carousel-team .team-item{
+    border:4px solid #E97332; 
+    background-color: #fff;
+     border-radius: 5px;
+
+}
+
+.our-team-brand{
+text-align: center;
+}
+
+.label-barber{
+    font-size: 1.3em;
+    word-wrap: wrap;
+    padding: -2em;
+    display: none;
+}
+
+
+.banner-polygon {
+    background:none;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+.our-team {
+    height: 80vh;
+}
+
+
+.rounded-circle{
+    width: 7em;
+    height:7em;
+}
+/* //////////////////book now/////////////////////// */
+
+
+.book-now {
+    height:auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5em 1fr 5em !important;
+}
+
+.wrapper-title{
+    margin:0.5em auto 0 auto !important; 
+    padding: 0 !important;
+}
+
+.wrapper-title .minititle{
+    padding: 0 !important;
+text-align: center;
+}
+
+.formulaire {
+    display: grid;
+    width: 94%;
+    margin: 0em 9%;
+    margin-top: -.9em !important;
+    grid-area: second;
+    width: 80%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:2fr;
+    grid-template-areas:
+        "g1"
+        "g2" 
+        "g3"
+        "g4" 
+       ;
+}
+
+
+.wrapper-title{
+    margin-left: 7em;
+    padding: 0;
+    margin-top: 1.7em;
+    box-sizing: border-box;
+}
+
+
+
+.form-group *{
+    margin-top: 1em;
+}
+
+.first-group{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.second-group{
+    margin:0 !important;
+    margin-top: -1em !important;
+}
+
+.box-links{
+  grid-area: g4;
+}
+
+.submit{
+    grid-area: g3;
+    margin:-2em 20% .8em;
+    background: linear-gradient(#E97332,#D6415F);
+    
+}
+
+
+.minititle a{
+    color: #000 !important;
+}
+
+.minititle a:hover{
+    color: #D6415F !important;
+}
+
+
+.carousel-team .team-item{
+    height:22em !important;
+    }
+    
+.team-item .about-worker{
+    display: block !important;
+}
+
+.wrapper-icons span.fa{
+    font-size: 1.3em;
+}
+
+
+#artwork .txt p:first-child{
+    display: none;
+}
+
+#artwork .txt p:last-child{
+line-height:1.2em;
+}
+  }
+  /* //fin mobile */
+
+
+
